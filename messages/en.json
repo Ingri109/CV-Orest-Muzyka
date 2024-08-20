@@ -1,0 +1,68 @@
+{
+    "Main": {
+        "title": "I AM OREST MUZYKA",
+        "text1": "I’M A CREATVE WEB DEVELEPER",
+        "text2": "I stand in the place where design and code intersect"
+    },
+    "Header": {
+        "about": "About Me",
+        "skills": "Skills",
+        "projects": "Works",
+        "contact": "Contact",
+        "NameNavBar": "Orest Muzyka"
+    },
+    "Abaut": {
+        "title1": "About me",
+        "title2": "Experience",
+        "title3": "Knowledge",
+        "content1": "I write code for the frontend part of the site, I've been studying this for over a year, learning new technologies and methods. I am ready to do my work and show my skills and abilities. I am a very creative and inventive Frontend programmer who is always ready for new ideas and challenges. I am constantly learning new programming languages and frameworks, as well as updating my knowledge of the materials I have already studied, I do not consider myself a genius in any language, because it is impossible to know a certain programming language or framework even by 90%. I like to work in a team and always look for compromises to improve work and maintain friendly relations in the team. I am willing and ready to learn new things, and I am not afraid to change for new opportunities",
+        "content2": "About my work experience, I work on creating my own projects for myself and projects for customers. I have ready-made projects that may be of interest to you, when learning a new technology, I try to increase the capabilities of the project and make it more complex, or use new technologies that I have not yet used in previous projects, so with each new framework and update to it, I learn and add something new to my new or already developing project. My main goal is to do the best for the user and the customer, to make the work interesting and functional.",
+        "content3": "I have been studying programming for more than two years, and website development, in particular Frontend, for more than one year. I study such technologies as HTML, CSS, JS, TS and frameworks for them, including React, Next.js, Tailwind CSS, Node.js. I have basic knowledge of writing tests for components. I also know English at A2 level and Polish at B1 level, I continue to improve these languages to a higher level, Ukrainian is my native language.",
+        "ReadMore": "Read more",
+        "GitHub": "My GitHub",
+        "buttonWorks": "See My Works",
+        "buttonlanguage": "See language and framework",
+        "Ukraine": "Ukrainian",
+        "Poland": "Polish",
+        "English": "English",
+        "Russia": "Russian",
+        "Native": "native"
+    },
+    "Languages": {
+        "Practicing": "Practicing: ",
+        "months": "months",
+        "year": "year"
+    },
+    "Skills": {
+        "My Skills": "My Skills",
+        "Skill1": "Customer service",
+        "Skill2": "Teamwork",
+        "Skill3": "Flexibility",
+        "Skill4": "Creativity",
+        "Skill5": "Ability to learn",
+        "Skill6": "Self-organization",
+        "Skill7": "Communication",
+        "Skill8": "Critical thinking"
+    },
+    "Works": {
+        "SubtitleSait1": "The site for lovers to improve relationships",
+        "SubtitleSait2": "Website menu for a cafe",
+        "SubtitleSait3": "My first job for a client",
+        "FirstJob": "First Job",
+        "FrameworkContent": "Project is built on the stack:",
+        "Content1": "This is my own site, which was created with people in long distance relationships in mind, and who lack attention or things to do together, so this site solves most of those problems. It's a site designed for long distance couples, but it's also great for those who want to know about their partner, their mood, what they're doing, and things like that. The main goal of the project is to help couples who don't have a lot of time to ask about their partner's health or what they are doing, instead you can go to the site and see what your partner is doing at the moment, what they want to do tonight, it will give you the opportunity to hear your partner's desires and make them come true.",
+        "Content2": "This site is my second work for the customer, I made a cafe menu on the web page for the convenience of customers. Thus, when the client came to the establishment, the client could scan the QR code to go to the site and view the menu and choose the desired drink from the list, where you can see exactly what the drink the client chose will look like. The site was simplified as much as possible so that the client could understand everything from the first seconds, and the light and dark theme was convenient for those who like bright or dark themes on their phones. The site is designed more for smartphones, but there is also adaptation for desktops.",
+        "Content3": "My first website was for a customer who asked me to create a visual page for him that looked like the Counter-Strike 2 game. This site has no purpose and no functionality, because this site was made as a demo version of the site that the customer could use in his project, change it, improve it, and add something of his own.",
+        "Button": "Visit me website",
+        "Name": "Works"
+    },
+    "Contact": {
+        "title1": "Write to me",
+        "title2": "Contacts",
+        "Name": "Name",
+        "Your Message": "Your Message",
+        "Button": "Send Message",
+        "GitHub": "My GitHub",
+        "Message": "Thanks for message!"
+    }
+}

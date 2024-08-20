@@ -1,0 +1,320 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+
+  .btn-about {
+    @apply bg-color3 text-white text-[14px] font-normal transition-all shadow-black shadow-[0_4px_20px_2px_rgba(0,0,0,0.3)] rounded-lg px-4 py-1 mt-3 ease-in-out duration-150 delay-300 hover:bg-color3_2 hover:font-medium hover:scale-105
+  }
+
+  .about {
+    @apply flex flex-col justify-start items-start bg-color1_3 w-5/6 h-[180px] rounded-l-xl rounded-tr-[18px] rounded-br-[40px] custom-shadow xl:w-1/2 lg:w-3/5 md:w-9/12
+  }
+
+  .headerText {
+    @apply text-[20px] text-white font-medium tracking-wide lg:text-[22px]
+  }
+
+  .headerTextModal {
+    @apply text-[24px] text-white font-semibold tracking-wider 
+  }
+
+  .modal-separation {
+    @apply basis-1/2 flex flex-col justify-start items-center my-2
+  }
+
+  .modal-language {
+    @apply flex flex-row justify-center items-center space-x-4
+  }
+
+  .modal-language-text {
+    @apply text-white text-[20px] font-semibold tracking-wider lg:text-[28px] md:text-[22px]
+  }
+
+  .modal-text {
+    @apply text-left text-white font-medium text-pretty indent-4 mx-2
+  }
+
+  .modal-title {
+    @apply text-[28px] text-white font-bold tracking-wide uppercase md:text-[32px]
+  }
+
+  .frameworksBlock {
+    @apply relative flex flex-col items-center justify-start w-[200px] h-[295px] bg-black border-[3px] rounded-lg transition-all duration-300 delay-100
+  }
+
+  .frameworksText {
+    @apply pointer-events-none absolute z-20 bottom-2 text-[24px] font-bold select-none transition-transform
+  }
+
+  .frameworksBlockInfo {
+    @apply absolute z-10 bottom-0 left-0 flex flex-row justify-center items-center space-x-1 bg-black w-[195.5px] border-t-[2px] rounded-b-md transition-all
+  }
+
+  .frameworksBlockInfoText1 {
+    @apply text-[18px] font-medium text-white mt-[20px] select-none
+  }
+
+  .frameworksBlockInfoText2 {
+    @apply text-[18px] font-semibold mt-[20px] select-none
+  }
+
+  .boxModalWorks {
+    @apply w-7/12 h-[468px] flex flex-row justify-center items-start justify-items-stretch border-2 rounded-lg bg-black shadow-[0px_0px_30px_-2px_rgba(0,0,0,0.3)] 
+  }
+
+  .footerNavText {
+    @apply text-[16px] text-white font-medium tracking-wide md:text-[20px]
+  }
+
+  .WorksBox {
+    @apply relative overflow-hidden flex flex-col justify-end items-start rounded-md w-[254px] h-[360px] select-none border mb-6 transition-shadow delay-150 duration-200 shadow-[0_0_30px_-10px_rgba(0,0,0,0.35)] hover:shadow-[0_0_40px_-4px_rgba(0,0,0,0.35)] xl:w-[254px] xl:h-[360px] lg:w-[200px] lg:h-[285px] md:w-[200px] md:h-[285px] 
+  }
+
+}
+
+/* Standert Classes */
+
+body {
+  background-color: #121212;
+  color: #F2F2F2;
+}
+
+.fonMain {
+  background-image: url('../../imgs/main_fon.png');
+}
+
+.Myfoto {
+  background-image: url('../../imgs/MyFoto.png');
+}
+
+.Sait {
+  background-image: url('../../imgs/sait.png');
+}
+
+.Sait_Coffee {
+  background-image: url('../../imgs/Coffee.png');
+}
+
+.Sait_CS {
+  background-image: url('../../imgs/CS-GO.png');
+}
+
+.foto-YourLove {
+  background-image: url('../../imgs/Sait1.png');
+}
+
+.foto-Coffee {
+  background-image: url('../../imgs/Sait2.png');
+}
+
+.foto-CS {
+  background-image: url('../../imgs/Sait3.png');
+}
+
+.custom-shadow {
+  box-shadow: 10px 4px 0px #6F1A00, 6px 4px 30px #F87443;
+}
+
+.custom-shadow2 {
+  box-shadow: -10px 4px 0px #6F1A00, -6px 4px 30px #F87443;
+}
+
+.language-name {
+  clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
+}
+
+.language-bg {
+  clip-path: polygon(0 0, 20% 0, 80% 100%, 60% 100%);
+}
+
+.skillsTitle {
+  background-image: url('../../imgs/Title.svg');
+}
+
+.from__field {
+  background: transparent;
+}
+
+.from__field::placeholder {
+  color: transparent;
+}
+
+.from__field:placeholder-shown~.from__label {
+  font-size: 20px;
+  cursor: text;
+  top: 20px;
+}
+
+/* ANIMATION */
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes scaleInEaseOut {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0);
+    animation-timing-function: ease-out;
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+
+@keyframes slideInFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-scaleIn {
+  animation: scaleIn 0.40s ease-in;
+}
+
+.animate-scaleOut {
+  opacity: 0;
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+.animate-scaleOut.item-1 {
+  opacity: 1;
+  transform: scale(1);
+  animation: scaleInEaseOut 0.80s ease-out;
+}
+
+.animate-scaleOut.item-2 {
+  opacity: 1;
+  transform: scale(1);
+  animation: scaleInEaseOut 1.10s ease-out;
+}
+
+.animate-scaleOut.item-3 {
+  opacity: 1;
+  transform: scale(1);
+  animation: scaleInEaseOut 1.40s ease-out;
+}
+
+.animate-scaleOut.item-4 {
+  opacity: 1;
+  transform: scale(1);
+  animation: scaleInEaseOut 1.70s ease-out;
+}
+.animate-scaleOut.item-5 {
+  opacity: 1;
+  transform: scale(1);
+  animation: scaleInEaseOut 2.00s ease-out;
+}
+
+.animate-scaleOut.item-6 {
+  opacity: 1;
+  transform: scale(1);
+  animation: scaleInEaseOut 2.30s ease-out;
+}
+
+.animate-scaleOut.item-7 {
+  opacity: 1;
+  transform: scale(1);
+  animation: scaleInEaseOut 2.60s ease-out;
+}
+
+.animate-scaleOut.item-8 {
+  opacity: 1;
+  transform: scale(1);
+  animation: scaleInEaseOut 2.90s ease-out;
+}
+
+.animate-scaleOut.item-9 {
+  opacity: 1;
+  transform: scale(1);
+  animation: scaleInEaseOut 3.20s ease-out;
+}
+
+.animate-scaleOut.item-10 {
+  opacity: 1;
+  transform: scale(1);
+  animation: scaleInEaseOut 3.50s ease-out;
+}
+
+.animate-scaleOut.item-11 {
+  opacity: 1;
+  transform: scale(1);
+  animation: scaleInEaseOut 3.80s ease-out;
+}
+.animate-scaleOut.item-12 {
+  opacity: 1;
+  transform: scale(1);
+  animation: scaleInEaseOut 4.10s ease-out;
+}
+
+
+.animate-slideIn {
+  opacity: 0;
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.animate-modal {
+  opacity: 0;
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.animate-slideIn.visibleL {
+  opacity: 1;
+  transform: translateX(0);
+  animation: slideInFromLeft 2s ease-out forwards;
+}
+
+.animate-slideIn.visibleL2 {
+  opacity: 1;
+  transform: translateX(0);
+  animation: slideInFromLeft 3s ease-out forwards;
+}
+
+.animate-slideIn.visibleR {
+  opacity: 1;
+  transform: translateX(0);
+  animation: slideInFromRight 2.5s ease-out forwards;
+}
+
+.animate-slideIn.item1 {
+  opacity: 1;
+  transform: translateX(0);
+  animation: slideInFromRight 2.5s ease-out forwards;
+}
+
+.animate-modal.modalR {
+  transform: translateX(0);
+  animation: slideInFromRight 0.4s ease-out forwards;
+}
+
