@@ -1,10 +1,10 @@
 {
   "components\\About\\about.tsx -> ./about": {
-    "id": "components\\About\\about.tsx -> ./about",
+    "id": 6421,
     "files": []
   },
   "components\\Frameworks\\frameworks.tsx -> ./frameworks": {
-    "id": "components\\Frameworks\\frameworks.tsx -> ./frameworks",
+    "id": 716,
     "files": []
   }
 }
