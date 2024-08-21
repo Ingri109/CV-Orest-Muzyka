@@ -33,11 +33,14 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: Export static files
+        run: npm run export
+
       - name: Upload build output
         uses: actions/upload-artifact@v3
         with:
           name: github-pages
-          path: .next
+          path: out  # Зміна на out, якщо ваш Next.js проект використовує next export
 
   deploy:
     runs-on: ubuntu-latest
@@ -50,7 +53,13 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: github-pages
-          path: .next
+          path: out  # Зміна на out, щоб завантажити з правильної директорії
 
       - name: Deploy to GitHub Pages
+        uses: actions/configure-pages@v5
+        with:
+          static_site_generator: next
+
+      - name: Deploy
+        id: deployment
         uses: actions/deploy-pages@v4
