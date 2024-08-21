@@ -20,12 +20,12 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
+        
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20.10.0"
-          cache: "npm"
+          node-version: '20.10.0'
+          cache: 'npm'
 
       - name: Install dependencies
         run: npm ci
@@ -45,7 +45,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
+        
       - name: Download build artifact
         uses: actions/download-artifact@v2
         with:
@@ -54,12 +54,8 @@ jobs:
 
       - name: Deploy to GitHub Pages
         uses: actions/configure-pages@v5
-        with:
-          static_site_generator: next
-          token: ${{ secrets.GITHUB_TOKEN }}
+       
 
       - name: Deploy
         id: deployment
-        uses: actions/deploy-pages@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+        uses: actions/deploy-pages@v4 
