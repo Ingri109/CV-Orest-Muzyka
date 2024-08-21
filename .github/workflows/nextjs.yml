@@ -33,10 +33,10 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v2
+      - name: Upload build output
+        uses: actions/upload-artifact@v3
         with:
-          name: nextjs-build
+          name: github-pages
           path: .next
 
   deploy:
@@ -53,10 +53,4 @@ jobs:
           path: .next
 
       - name: Deploy to GitHub Pages
-        uses: actions/configure-pages@v4
-        # with:
-        #   static_site_generator: next
-
-      - name: Deploy
-        id: deployment
-        uses: actions/deploy-pages@v4 
+        uses: actions/deploy-pages@v4
