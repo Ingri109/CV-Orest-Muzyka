@@ -7,6 +7,5 @@ const nextConfig = {
     output:'export',
 };
 
-console.log('Next.js Config:', nextConfig);
  
 export default withNextIntl(nextConfig);
