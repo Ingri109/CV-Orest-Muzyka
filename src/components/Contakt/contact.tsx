@@ -92,20 +92,20 @@ const ContactComponent = () => {
                         <div className="w-1/4 h-[2px] bg-white mt-2 md:w-1/5"></div>
                     </div>
                     <div className="w-full flex flex-row justify-start items-center mt-8 space-x-4">
-                        <Image className="w-9 h-9 select-none" src={Phone} alt="Phone" />
+                        <Image loading="lazy" className="w-9 h-9 select-none" src={Phone} alt="Phone" />
                         <h3 className="text-[24px] text-white font-semibold tracking-wider">+48881641600</h3>
                     </div>
                     <div className="w-full flex flex-row justify-start items-center mt-8 space-x-4">
-                        <Image className="w-9 h-9 select-none" src={Email} alt="Email" />
+                        <Image loading="lazy" className="w-9 h-9 select-none" src={Email} alt="Email" />
                         <h3 title="Copy me!" onClick={handleCopy} className="text-[20px] text-white font-semibold tracking-normal cursor-pointer lg:text-[20px]">orest.muzyka.it@gmail.com</h3>
-                        {copied ? <Image className="size-5 select-none" src={Copy} alt="Copy" /> : <></>}
+                        {copied ? <Image loading="lazy" className="size-5 select-none" src={Copy} alt="Copy" /> : <></>}
                     </div>
                     <div className="w-full flex flex-row justify-start items-center mt-8 space-x-4">
-                        <Image className="w-9 h-9 select-none" src={GitGub} alt="GitHub" />
+                        <Image loading="lazy" className="w-9 h-9 select-none" src={GitGub} alt="GitHub" />
                         <a target="blank" href="https://github.com/Ingri109" className="text-[20px] text-white font-semibold tracking-wider hover:underline hover:underline-offset-[6px] hover:text-color1_2">{t('GitHub')}</a>
                     </div>
                     <div className="w-full flex flex-row justify-start items-center mt-8 space-x-4">
-                        <Image className="w-9 h-9 select-none" src={Telegram} alt="Telegram" />
+                        <Image loading="lazy" className="w-9 h-9 select-none" src={Telegram} alt="Telegram" />
                         <h3 className="text-[20px] text-white font-semibold tracking-wider">@Ingri109</h3>
                     </div>
                 </div>

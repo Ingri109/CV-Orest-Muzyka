@@ -1,9 +1,11 @@
 
 import type { Metadata } from "next";
 import { NextIntlClientProvider } from 'next-intl';
-import { getLocale, getMessages } from 'next-intl/server';
+import { getMessages } from 'next-intl/server';
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { Suspense } from 'react';
+import Loading from "./loading";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,7 +22,7 @@ interface RootLayoutProps {
 }
 export default async function RootLayout({
   children,
-  params: {locale}
+  params: { locale }
 }: Readonly<RootLayoutProps>) {
 
   const messages = await getMessages();
@@ -28,9 +30,11 @@ export default async function RootLayout({
   return (
     <html lang={locale} className="scroll-smooth">
       <body className={inter.className}>
-        <NextIntlClientProvider messages={messages}>
-          {children}
-        </NextIntlClientProvider>
+        <Suspense fallback={<Loading/>}>
+          <NextIntlClientProvider messages={messages}>
+            {children}
+          </NextIntlClientProvider>
+        </Suspense>
       </body>
     </html>
   );

@@ -26,12 +26,12 @@ const WorksComponet = () => {
                         <div onClick={() => { setOpenModal(!openModal), setNameModal('Coffee') }} className="WorksBox foto-Coffee mt-0 border-white shadow-white hover:shadow-[0_0_40px_-4px_rgba(0,0,0,0.35)] hover:shadow-white md:mt-20">
                             <div className="absolute -left-[73px] -bottom-[220px] bg-color2 rounded-full w-[400px] h-[400px] blur-2xl"></div>
                             <h2 className="z-10  text-[16px] font-medium text-white ml-3 mb-1">{t('SubtitleSait2')}</h2>
-                            <h1 className="z-10 text-[34px] font-bold text-white ml-3 mb-1 lg:text-[34px] md:text-[28px]">Coffee Menu</h1>
+                            <h1 className="z-10 text-[34px] font-bold text-white ml-3 mb-1 xl:text-[34px] lg:text-[28px] md:text-[28px]">Coffee Menu</h1>
                         </div>
                         <div onClick={() => { setOpenModal(!openModal), setNameModal('CS') }} className="WorksBox foto-CS mt-0 border-[#FBAC18] hover:shadow-[0_0_40px_-4px_rgba(0,0,0,0.35)] hover:shadow-[#FBAC18] md:mt-20">
                             <div className="absolute -left-[73px] -bottom-[220px] bg-color2 rounded-full w-[400px] h-[400px] blur-2xl"></div>
                             <h2 className="z-10  text-[16px] font-medium text-wite ml-3 mb-1">{t('SubtitleSait3')}</h2>
-                            <h1 className="z-10 text-[34px] font-bold text-[#FBAC18] ml-3 mb-1 lg:text-[34px] md:text-[28px]">{t('FirstJob')}</h1>
+                            <h1 className="z-10 text-[30px] font-bold text-[#FBAC18] ml-3 mb-1 xl:text-[30px] lg:text-[24px] md:text-[24px]">{t('FirstJob')}</h1>
                         </div>
                     </div>
                 </div>

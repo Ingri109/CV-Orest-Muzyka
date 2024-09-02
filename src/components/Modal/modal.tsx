@@ -74,19 +74,19 @@ const ModalComponent: React.FC<ModalProps> = ({ openModal, nameModal, onClose })
                         <>
                             <div className="basis-1/2 h-full flex flex-col justify-center items-start space-y-5 ml-8 order-last lg:basis-1/2 md:basis-2/5 md:order-none">
                                 <div className="modal-language ">
-                                    <Image className="w-[64px] h-[64px]" src={ukraine} alt="ukraine" />
+                                    <Image loading="lazy" className="w-[64px] h-[64px]" src={ukraine} alt="ukraine" />
                                     <h2 className="modal-language-text">{t('Ukraine')} - <label className="text-color1_2">native</label></h2>
                                 </div>
                                 <div className="modal-language">
-                                    <Image className="w-[64px] h-[64px]" src={poland} alt="poland" />
+                                    <Image loading="lazy" className="w-[64px] h-[64px]" src={poland} alt="poland" />
                                     <h2 className="modal-language-text">{t('Poland')} - <label className="text-color1_2">B1</label></h2>
                                 </div>
                                 <div className="modal-language">
-                                    <Image className="w-[64px] h-[64px]" src={united_kingdom} alt="united_kingdom" />
+                                    <Image loading="lazy" className="w-[64px] h-[64px]" src={united_kingdom} alt="united_kingdom" />
                                     <h2 className="modal-language-text">{t('English')} - <label className="text-color1_2">A2</label></h2>
                                 </div>
                                 <div className="modal-language">
-                                    <Image className="w-[64px] h-[64px]" src={russia} alt="russia" />
+                                    <Image loading="lazy" className="w-[64px] h-[64px]" src={russia} alt="russia" />
                                     <h2 className="modal-language-text">{t('Russia')} - <label className="text-color1_2">B2</label></h2>
                                 </div>
                             </div>

@@ -44,7 +44,7 @@ const HeaderComponent = () => {
                 <Link className="headerText" href="#contact" scroll={true}>{t('contact')}</Link>
                 <LocalSwitcher modal={'header'}/>
             </nav>
-            <Image onClick={() => setOpenNavBar(!openNavBar)} src={Nav} alt="Navbar" className="block mr-4 md:hidden"></Image>
+            <Image loading="lazy" onClick={() => setOpenNavBar(!openNavBar)} src={Nav} alt="Navbar" className="block mr-4 md:hidden"></Image>
         </header>
         <ModalNavBar openNavBar={openNavBar} onClose={onClose} />
     </>

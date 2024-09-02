@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+const { addDynamicIconSelectors } = require('@iconify/tailwind');
 
 const config: Config = {
   content: [
@@ -9,7 +10,7 @@ const config: Config = {
   theme: {
     colors: {
       color1: "#D94D1A",
-      color1_1 : "#F87443",
+      color1_1: "#F87443",
       color1_2: "#E55927",
       color1_3: "#CC420F",
       color1_4: "#6F1A00",
@@ -26,7 +27,7 @@ const config: Config = {
 
       black: "#121212",
       white: "#F2F2F2",
-      transparent: 'transparent',
+      transparent: "transparent",
     },
     extend: {
       backgroundImage: {
@@ -36,6 +37,6 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [addDynamicIconSelectors()],
 };
 export default config;

@@ -1,8 +1,7 @@
 import { useTranslations } from 'next-intl';
 
-const MainComponent = () => {
+const MainComponent = async () => {
   const t = useTranslations('Main');
-  
   return (
     <main id="main" className="bg-contain bg-fixed bg-top bg-no-repeat fonMain w-full h-[220px] m-0 md:bg-center sm:h-[354px] md:h-screen md:bg-cover">
       <div className="bg-black bg-opacity-60 w-full h-full flex flex-col items-center justify-center">

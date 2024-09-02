@@ -1,25 +1,41 @@
 'use client';
 
+import { Suspense } from "react";
+import dynamic from 'next/dynamic';
 import MainComponent from "@/components/Main/main";
 import HeaderComponent from "@/components/Header/header";
 import AboutComponent from "@/components/About/about";
-import FrameworkComponent from "@/components/Frameworks/frameworks";
-import SkillsComponent from "@/components/Skills/skills";
-import WorksComponet from "@/components/Works/works";
-import ContactComponent from "@/components/Contakt/contact";
-import FooterComponent from "@/components/Footer/footer";
+import Loading from "./loading";
 
-export default function Home() {
+// Динамічне завантаження з next/dynamic
+const FrameworkComponent = dynamic(() => import('@/components/Frameworks/frameworks'), {
+  loading: () => <Loading />
+});
+const SkillsComponent = dynamic(() => import('@/components/Skills/skills'), {
+  loading: () => <Loading />
+});
+const WorksComponent = dynamic(() => import('@/components/Works/works'), {
+  loading: () => <Loading />
+});
+const ContactComponent = dynamic(() => import('@/components/Contakt/contact'), {
+  loading: () => <Loading />
+});
+const FooterComponent = dynamic(() => import('@/components/Footer/footer'), {
+  loading: () => <Loading />
+});
 
-  return (<>
-    <MainComponent />
-    <HeaderComponent />
-    <AboutComponent />
-    <FrameworkComponent />
-    <SkillsComponent />
-    <WorksComponet />
-    <ContactComponent/>
-    <FooterComponent/>
-  </>
+export default function Page() {
+  return (
+    <>
+      <MainComponent />
+      <HeaderComponent />
+      <AboutComponent />
+
+      <FrameworkComponent />
+      <SkillsComponent />
+      <WorksComponent />
+      <ContactComponent />
+      <FooterComponent />
+    </>
   );
 }

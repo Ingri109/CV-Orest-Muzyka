@@ -70,8 +70,7 @@ const SkillsComponent = () => {
                     ))}
                 </div>
                 <div className="flex flex-col justify-center items-center bg-black rounded-xl w-10/12 h-auto px-8 py-3 space-y-5 shadow-xl xl:w-5/12 lg:w-6/12 md:w-7/12">
-                    <Image onClick={scrollUp} src={Arrow} alt="Arrow" className="w-full h-6 cursor-pointer">
-                    </Image>
+                    <Image  loading="lazy" onClick={scrollUp} src={Arrow} alt="Arrow" className="w-full h-6 cursor-pointer"></Image>
                     {getVisibleSkills().map((skill, index) => (
                         <div key={index} className={`flex flex-col justify-start items-stretch w-full px-4 py-2.5  ${index === 2 && colorIndex}`}>
                             <div className="flex flex-row items-center justify-between">
@@ -85,8 +84,7 @@ const SkillsComponent = () => {
 
                         </div>
                     ))}
-                    <Image onClick={scrollDown} src={Arrow} alt="Arrow" className="w-full h-6 cursor-pointer rotate-180">
-                    </Image>
+                    <Image loading="lazy" onClick={scrollDown} src={Arrow} alt="Arrow" className="w-full h-6 cursor-pointer rotate-180"></Image>
                 </div>
             </div>
         </section>
