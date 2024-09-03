@@ -55,7 +55,7 @@ const ModalComponent: React.FC<ModalProps> = ({ openModal, nameModal, onClose })
                         <>
                             <div className="modal-separation order-last lg:basis-1/2 md:basis-2/5 md:order-none">
                                 <a href="https://your-love-0-0-1.vercel.app/en" className="Sait bg-no-repeat bg-contain bg-center rounded-md shadow-[0_0_30px_-10px_rgba(0,0,0,0.3)] shadow-color2_1 w-[300px] h-[187px] mt-4 lg:w-[380px] lg:h-[237px] md:w-[300px] md:h-[187px] sm:w-[380px] sm:h-[237px] "></a>
-                                <Link onClick={onClose} href={'#work'} className="text-white text-[18px] font-semibold border-[2px] border-color3 rounded-md bg-color1_3 mb-4 mt-[40px] px-12 py-1 shadow-[0_0_40px_2px_rgba(0,0,0,0.3)] shadow-color3_3 transition-all delay-200 duration-150 hover:scale-105 hover:shadow-[0_0_60px_-4px_rgba(0,0,0,0.3)] hover:shadow-color3_3 md:md-0 md:mt-[84px] lg:px-24 md:px-16 sm:px-20">
+                                <Link onClick={onClose} href={'#works'} className="text-white text-[18px] font-semibold border-[2px] border-color3 rounded-md bg-color1_3 mb-4 mt-[40px] px-12 py-1 shadow-[0_0_40px_2px_rgba(0,0,0,0.3)] shadow-color3_3 transition-all delay-200 duration-150 hover:scale-105 hover:shadow-[0_0_60px_-4px_rgba(0,0,0,0.3)] hover:shadow-color3_3 md:md-0 md:mt-[84px] lg:px-24 md:px-16 sm:px-20">
                                     {t('buttonWorks')}
                                 </Link>
                             </div>

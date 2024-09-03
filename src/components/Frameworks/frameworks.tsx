@@ -65,7 +65,7 @@ const FrameworLoadkComponent = () => {
 
     return (
         <>
-            <div id='#language&framework' className="relative flex flex-row justify-start items-center space-x-1 md:space-x-3">
+            <div id='language&framework' className="relative flex flex-row justify-start items-center space-x-1 md:space-x-3">
                 <div className="bg-white text-[20px] font-bold text-black py-4 pl-4 pr-10 my-10 language-name md:text-[28px]">
                     Language & Frameworks
                 </div>
