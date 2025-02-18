@@ -83,7 +83,7 @@ const ModalComponent: React.FC<ModalProps> = ({ openModal, nameModal, onClose })
                                 </div>
                                 <div className="modal-language">
                                     <Image loading="lazy" className="w-[64px] h-[64px]" src={united_kingdom} alt="united_kingdom" />
-                                    <h2 className="modal-language-text">{t('English')} - <label className="text-color1_2">A2</label></h2>
+                                    <h2 className="modal-language-text">{t('English')} - <label className="text-color1_2">B1</label></h2>
                                 </div>
                                 <div className="modal-language">
                                     <Image loading="lazy" className="w-[64px] h-[64px]" src={russia} alt="russia" />
