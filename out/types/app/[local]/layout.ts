@@ -1,8 +1,10 @@
 // File: D:\Project\Перші проєкти\CV\cv_orest\src\app\[local]\layout.tsx
-import * as entry from '../../../../src/app/[locale]/layout.jsx'
+
+
+import * as entry from "../../../../src/app/[local]/layout.jsx"
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../src/app/[locale]/layout.jsx')
+type TEntry = typeof import("../../../../src/app/[local]/layout")
 
 // Check that the entry is a valid entry
 checkFields<Diff<{
@@ -16,12 +18,12 @@ checkFields<Diff<{
   preferredRegion?: 'auto' | 'global' | 'home' | string | string[]
   runtime?: 'nodejs' | 'experimental-edge' | 'edge'
   maxDuration?: number
-  
+
   metadata?: any
   generateMetadata?: Function
   viewport?: any
   generateViewport?: Function
-  
+
 }, TEntry, ''>>()
 
 // Check the prop type of the entry function
