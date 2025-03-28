@@ -30,7 +30,23 @@
     "Languages": {
         "Practicing": "Практикую: ",
         "months": "міс.",
-        "year": "рік"
+        "year": "рік",
+        "discriptionHTML": "Основа веб-сторінки",
+        "discriptionCSS": "Стиль і оформлення",
+        "discriptionJS": "Динаміка та логіка",
+        "discriptionTS": "Розширений JavaScript",
+        "discriptionTcss": "Гнучкі стилі",
+        "discriptionReact": "Динамічний UI",
+        "discriptionNextJs": "Оптимізований React",
+        "discriptionCypress": "Тестування фронтенду",
+        "discriptionGraphQL": "Eфективний API",
+        "discriptionJest": "Тестування коду",
+        "discriptionGit": "Контроль версій",
+        "discriptionGitHub": "Зберігання коду",
+        "discriptionPlus1": "Покращує безпеку та масштабованість коду",
+        "discriptionPlus2": "Швидке створення стилів без надмірного CSS",
+        "discriptionPlus3": "Ефективна розробка динамічних інтерфейсів",
+        "discriptionPlus4": "Покращена продуктивність та SEO"
     },
     "Skills": {
         "My Skills": "Навички",

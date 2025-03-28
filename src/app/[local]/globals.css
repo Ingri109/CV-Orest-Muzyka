@@ -46,19 +46,27 @@
   }
 
   .frameworksText {
-    @apply pointer-events-none absolute z-20 bottom-2 text-[24px] font-bold select-none transition-transform
+    @apply pointer-events-none absolute z-20 bottom-2 text-[24px] font-bold select-none transition-transform duration-300
   }
 
   .frameworksBlockInfo {
-    @apply absolute z-10 bottom-0 left-0 flex flex-row justify-center items-center space-x-1 bg-black w-[195.5px] border-t-[2px] rounded-b-md transition-all
+    @apply absolute z-10 bottom-0 left-0 flex flex-col justify-start items-center bg-black w-[195.5px] border-t-[2px] rounded-b-md transition-all duration-150 ease-in
+  }
+
+  .FrameworksBlockInfoTexts {
+    @apply flex flex-row justify-start items-center mt-[10px]
+  }
+
+  .frameworksBlockInfoDescription {
+    @apply text-[14px] mt-9 text-center font-light mx-4
   }
 
   .frameworksBlockInfoText1 {
-    @apply text-[18px] font-medium text-white mt-[20px] select-none
+    @apply text-[18px] font-medium text-white select-none
   }
 
   .frameworksBlockInfoText2 {
-    @apply text-[18px] font-semibold mt-[20px] select-none
+    @apply text-[18px] font-semibold select-none
   }
 
   .boxModalWorks {

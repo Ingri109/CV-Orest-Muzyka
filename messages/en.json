@@ -31,7 +31,23 @@
     "Languages": {
         "Practicing": "Practicing: ",
         "months": "months",
-        "year": "year"
+        "year": "year",
+        "discriptionHTML": "Core of the webpage",
+        "discriptionCSS": "Style and design",
+        "discriptionJS": "Dynamics and logic",
+        "discriptionTS": "Extended JavaScript",
+        "discriptionTcss": "Flexible styles",
+        "discriptionReact": "Dynamic UI",
+        "discriptionNextJs": "Optimized React",
+        "discriptionCypress": "Frontend testing",
+        "discriptionGraphQL": "Efficient API",
+        "discriptionJest": "Code testing",
+        "discriptionGit": "Version control",
+        "discriptionGitHub": "Code storage",
+        "discriptionPlus1": "Improves code security and scalability",
+        "discriptionPlus2": "Fast style creation without excess CSS",
+        "discriptionPlus3": "Efficient development of dynamic interfaces",
+        "discriptionPlus4": "Improved performance and SEO"
     },
     "Skills": {
         "My Skills": "My Skills",
