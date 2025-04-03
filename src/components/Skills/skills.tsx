@@ -14,14 +14,14 @@ const SkillsComponent = () => {
     const visibleCount = 5;
 
     const skills = [
-        { name: t("Skill1"), level: "55%", width: 'w-[55%]' },
-        { name: t("Skill2"), level: "70%", width: 'w-[70%]' },
-        { name: t("Skill3"), level: "70%", width: 'w-[70%]' },
-        { name: t("Skill4"), level: "60%", width: 'w-[60%]' },
-        { name: t("Skill5"), level: "90%", width: 'w-[90%]' },
+        { name: t("Skill1"), level: "82%", width: 'w-[82%]' },
+        { name: t("Skill2"), level: "90%", width: 'w-[90%]' },
+        { name: t("Skill3"), level: "77%", width: 'w-[77%]' },
+        { name: t("Skill4"), level: "85%", width: 'w-[85%]' },
+        { name: t("Skill5"), level: "95%", width: 'w-[95%]' },
         { name: t("Skill6"), level: "80%", width: 'w-[80%]' },
-        { name: t("Skill7"), level: "80%", width: 'w-[80%]' },
-        { name: t("Skill8"), level: "90%", width: 'w-[90%]' },
+        { name: t("Skill7"), level: "96%", width: 'w-[96%]' },
+        { name: t("Skill8"), level: "93%", width: 'w-[93%]' },
     ];
 
     const scrollUp = () => {
