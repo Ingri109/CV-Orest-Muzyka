@@ -242,6 +242,8 @@ const FrameworLoadkComponent = () => {
               }`}
             >
               Type Script
+              
+  
             </h1>
             <div
               className={`frameworksBlockInfo border-t-[#007ACC] ${
