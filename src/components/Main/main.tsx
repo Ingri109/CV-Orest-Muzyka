@@ -3,7 +3,7 @@ import { useTranslations } from 'next-intl';
 const MainComponent = async () => {
   const t = useTranslations('Main');
   return (
-    <main id="main" className="h-full w-full fonMain aspect-[16/9] bg-cover bg-top bg-no-repeat">
+    <main id="main" className="h-dvh w-full fonMain aspect-[16/9] bg-cover bg-top bg-no-repeat">
       <div className="bg-black bg-opacity-60 w-full h-full flex flex-col items-center justify-center">
         <div className="container mx-auto p-4 flex flex-col items-center justify-center justify-items-center mb-12">
           <h1 className="text-white text-[24px] font-bold text-nowrap uppercase tracking-wider mb-5 md:text-[42px] sm:text-[36px]">{t('title')}</h1>

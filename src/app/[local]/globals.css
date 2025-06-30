@@ -6,11 +6,11 @@
 @layer components {
 
   .btn-about {
-    @apply bg-color3 text-white text-[14px] font-normal transition-all shadow-black shadow-[0_4px_20px_2px_rgba(0,0,0,0.3)] rounded-lg px-4 py-1 mt-3 ease-in-out duration-150 delay-300 hover:bg-color3_2 hover:font-medium hover:scale-105
+    @apply bg-color3 text-white text-[14px] font-normal transition-all shadow-black shadow-[0_4px_20px_2px_rgba(0,0,0,0.3)] rounded-lg px-4 py-1 ease-in-out duration-150 delay-300 hover:bg-color3_2 hover:font-medium hover:scale-105
   }
 
   .about {
-    @apply flex flex-col justify-start items-start bg-color1_3 w-5/6 h-[180px] rounded-l-xl rounded-tr-[18px] rounded-br-[40px] custom-shadow xl:w-1/2 lg:w-3/5 md:w-9/12
+    @apply flex flex-col justify-between items-start bg-color1_3 w-[80%] h-[300px] py-4 px-4 rounded-l-xl rounded-[18px] border-color1_4 border-[6px] shadow-[0_2px_14px_-2px_rgba(0,0,0,0.3)] shadow-color1_1 lg:w-[27%] md:w-[60%] sm:w-[60%] md:h-[400px]
   }
 
   .headerText {

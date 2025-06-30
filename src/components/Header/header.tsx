@@ -13,8 +13,10 @@ const HeaderComponent = () => {
 
 
     useEffect(() => {
+        const screenHeight = window.innerHeight;
+        console.log(screenHeight)
         const handleScroll = () => {
-            if (window.scrollY > 750) {
+            if (window.scrollY > screenHeight) {
                 setIsSticky(true);
             } else {
                 setIsSticky(false);

@@ -81,7 +81,6 @@ const FrameworLoadkComponent = () => {
       ({ months }) => diffMonths < months
     );
 
-    debugger;
     if (experience?.months === 6) {
       return `${experience?.label} ${t("months")}`;
     }
